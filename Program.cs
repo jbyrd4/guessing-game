@@ -40,6 +40,7 @@ else
 
         if (Answer != SecretNumber)
         {
+            Console.WriteLine("______________________");
             Console.WriteLine("You did not guess the secret number");
             Console.WriteLine($"Your Guess ({Answer})");
             if (difficulty != 4)
@@ -58,6 +59,7 @@ else
             else
             {
                 Console.WriteLine("Your guess is too low.");
+                Console.WriteLine("______________________");
             }
         }
         else
